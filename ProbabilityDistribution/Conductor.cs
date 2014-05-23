@@ -8,9 +8,9 @@
 		// Conduct the experiment. Display the results of the experiment.
 		public static void Main()
 		{
-			IStatistician statistician = new Statistician();
 			ReportHeader();
 
+			IStatistician statistician = new Statistician();
 			statistician.Experiment(10);
 			ReportRow(10, statistician.Results);
 
