@@ -9,6 +9,6 @@
 		public static void Main() { }
 
 		// Takes in experiment result data and displays it to the console.
-		private static void Report(int totalRolls, Dictionary<int, int> data) { }
+		private static void Report(int rolls, IDictionary<int, int> data) { }
 	}
 }
