@@ -4,7 +4,7 @@ Challenge: http://www.reddit.com/r/dailyprogrammer/comments/25y2d0/5192014_chall
 This is a console application. Requirements:
 1) The Conductor will run the show. It contains the Main method.
 2) You will need a die for this experiment. You should create a Die class which implements the IDie interface (http://msdn.microsoft.com/en-us/library/87d83y5b.aspx).
-	An interface contains "signatures" of method names and parameters.
+	An interface contains "signatures" of method names, properties, and parameters.
 	When you implement an interface on a class, the class must contain an implementation for each signature within the interface.
 	The interface therefore guides the way you program a class. Interfaces also have other uses which you can read about in the supplied link.
 3) You should create a Statistician class. This Statistician should implement the IStatistician interface.
