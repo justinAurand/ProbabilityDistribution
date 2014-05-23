@@ -16,7 +16,7 @@
 		{
 			die = new Die();
 			results = new Dictionary<int, int>();
-			for (int i = 1; i <= 6; i++)
+			for (int i = 1; i < 7; i++)
 				results.Add(i, 0);
 		}
 
