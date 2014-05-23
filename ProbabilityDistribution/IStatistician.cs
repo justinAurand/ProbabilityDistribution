@@ -8,6 +8,6 @@
 		IDictionary<int, int> Results { get; }
 
 		// Roll a die and record the resulting value.
-		void Experiment(int numberOfRolls);
+		void Experiment(int iterations);
 	}
 }
